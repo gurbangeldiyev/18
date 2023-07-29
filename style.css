@@ -1,0 +1,55 @@
+.bg-image {
+    background-image: url("./img/01.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.btn-danger-emphasis {
+    background-color: #E54A8E ;
+}
+
+
+.bg-purple {
+    background-color: #5359F7;
+}
+
+
+.text-purple {
+    color: #5359F7;
+}
+.img-hover {
+    transition: .6s;
+}
+
+.img-hover:hover {
+    transform: scale(1.03);
+    transition: .6s all;
+    cursor: pointer;
+    filter: contrast(1.2);
+}
+
+.text {
+    transition: .6s;
+}
+
+.text:hover {
+    transform: scale(1.13);
+    transition: .6s all;
+    cursor: pointer;
+    filter: contrast(1.2);
+    background-color: #ab95e3;
+    font-weight: bold;
+}
+
+.text-1 {
+    transition: .6s;
+}
+
+.text-1:hover {
+    transform: scale(1.03);
+    transition: .6s all;
+    cursor: pointer;
+    filter: contrast(1.2);
+}
